@@ -48,13 +48,12 @@ void bubblesortarray() { //prosedur untuk mengurutkan array dengan metode bubble
 	}
 
 }
-
-
-
-
-
-
 int main() {
+	input(); // memanggil read()  
+	bubblesortarray(); // memanggil bubblesortarray()
+	display();  //memanggil display()
+	return 0;
+
 
 }
 	
