@@ -15,6 +15,16 @@ void input() {     // procedure untuk input
 		}
 
 	}
+	cout << endl;           // ouput baris kosong
+	cout << "===================" << endl; // output ke layar
+	cout << "masukkan elemen array " << endl;  // output ke layara
+	cout << "===================" << endl; // output ke layar
+
+	for (int i = 0; i < n; i++) { // looping dengan 1 dimulai dari 0 hingga n-1
+		cout << "data ke -" << (i + 1) << "; "; // output ke layar
+		cin >> a[i];              // input dari pengguna
+	}
+}
 
 
 
